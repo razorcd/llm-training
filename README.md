@@ -9,3 +9,8 @@ docker run -it --rm --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery
 ```
 docker run --rm -p 6333:6333 -p 6334:6334 -v "$(pwd)/h2/qdrant_storage:/qdrant/storage:z" qdrant/qdrant
 ```
+
+Qdrant UI
+```
+http://localhost:6333/dashboard#/collections
+```
